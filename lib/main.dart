@@ -19,7 +19,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
-      'questionText': 'What\'s your favorite color?',
+      'questionText': 'What\'s my favorite color?',
       'answers': [
         {'text': 'Black', 'score': 1},
         {'text': 'Red', 'score': 6},
@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
       ],
     },
     {
-      'questionText': 'What\'s your favorite animal?',
+      'questionText': 'What\'s my favorite animal?',
       'answers': [
         {'text': 'Rabbit', 'score': 3},
         {'text': 'Snake', 'score': 6},
@@ -37,12 +37,21 @@ class _MyAppState extends State<MyApp> {
       ],
     },
     {
-      'questionText': 'Who\'s your favorite intructor?',
+      'questionText': 'Who\'s my favorite singer?',
       'answers': [
-        {'text': 'Louis', 'score': 5},
-        {'text': 'Max', 'score': 6},
-        {'text': 'Ezreal', 'score': 9},
-        {'text': 'Denis', 'score': 8}
+        {'text': 'Son Tung MTP', 'score': 5},
+        {'text': 'Jack', 'score': 6},
+        {'text': 'Den Vau', 'score': 9},
+        {'text': 'My Tam', 'score': 8}
+      ],
+    },
+    {
+      'questionText': 'What\'s my favorite game?',
+      'answers': [
+        {'text': 'League of Legend', 'score': 5},
+        {'text': 'CS:GO', 'score': 6},
+        {'text': 'Valorant', 'score': 9},
+        {'text': 'PUBG', 'score': 8}
       ],
     }
   ];
